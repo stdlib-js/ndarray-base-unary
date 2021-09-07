@@ -470,7 +470,7 @@ The function should return an unsigned 8-bit integer.
 
 * * *
 
-#### stdlib_ndarray_b_b( \*arrays[], \*shape, \*strides, \*fcn )
+#### stdlib_ndarray_b_b( \*arrays\[], \*shape, \*strides, \*fcn )
 
 Applies a unary callback accepting and returning unsigned 8-bit integers to an unsigned 8-bit integer input ndarray and assigns results to elements in an unsigned 8-bit integer output ndarray.
 
@@ -510,7 +510,7 @@ The function accepts the following arguments:
 void stdlib_ndarray_b_b( uint8_t *arrays[], int64_t *shape, int64_t *strides, void *fcn );
 ```
 
-#### stdlib_ndarray_b_d( \*arrays[], \*shape, \*strides, \*fcn )
+#### stdlib_ndarray_b_d( \*arrays\[], \*shape, \*strides, \*fcn )
 
 Applies a unary callback accepting and returning unsigned 8-bit integers to an unsigned 8-bit integer input ndarray, casts the callback's unsigned 8-bit integer return value to a double-precision floating-point number, and assigns results to elements in a double-precision floating-point output ndarray.
 
@@ -550,7 +550,7 @@ The function accepts the following arguments:
 void stdlib_ndarray_b_d( uint8_t *arrays[], int64_t *shape, int64_t *strides, void *fcn );
 ```
 
-#### stdlib_ndarray_b_d_as_d_d( \*arrays[], \*shape, \*strides, \*fcn )
+#### stdlib_ndarray_b_d_as_d_d( \*arrays\[], \*shape, \*strides, \*fcn )
 
 Applies a unary callback accepting and returning double-precision floating-point numbers to an unsigned 8-bit integer input ndarray and assigns results to elements in a double-precision floating-point output ndarray.
 
@@ -590,7 +590,7 @@ The function accepts the following arguments:
 void stdlib_ndarray_b_d_as_d_d( uint8_t *arrays[], int64_t *shape, int64_t *strides, void *fcn );
 ```
 
-#### stdlib_ndarray_b_f( \*arrays[], \*shape, \*strides, \*fcn )
+#### stdlib_ndarray_b_f( \*arrays\[], \*shape, \*strides, \*fcn )
 
 Applies a unary callback accepting and returning unsigned 8-bit integers to an unsigned 8-bit integer input ndarray, casts the callback's unsigned 8-bit integer return value to a single-precision floating-point number, and assigns results to elements in a single-precision floating-point output ndarray.
 
@@ -630,7 +630,7 @@ The function accepts the following arguments:
 void stdlib_ndarray_b_f( uint8_t *arrays[], int64_t *shape, int64_t *strides, void *fcn );
 ```
 
-#### stdlib_ndarray_b_f_as_d_d( \*arrays[], \*shape, \*strides, \*fcn )
+#### stdlib_ndarray_b_f_as_d_d( \*arrays\[], \*shape, \*strides, \*fcn )
 
 Applies a unary callback accepting and returning double-precision floating-point numbers to an unsigned 8-bit integer input ndarray, casts the callback's double-precision floating-point return value to a single-precision floating-point number, and assigns results to elements in a single-precision floating-point output ndarray.
 
@@ -670,7 +670,7 @@ The function accepts the following arguments:
 void stdlib_ndarray_b_f_as_d_d( uint8_t *arrays[], int64_t *shape, int64_t *strides, void *fcn );
 ```
 
-#### stdlib_ndarray_b_f_as_f_f( \*arrays[], \*shape, \*strides, \*fcn )
+#### stdlib_ndarray_b_f_as_f_f( \*arrays\[], \*shape, \*strides, \*fcn )
 
 Applies a unary callback accepting and returning single-precision floating-point numbers to an unsigned 8-bit integer input ndarray, casts the callback's single-precision floating-point return value to a single-precision floating-point number, and assigns results to elements in a single-precision floating-point output ndarray.
 
@@ -710,7 +710,7 @@ The function accepts the following arguments:
 void stdlib_ndarray_b_f_as_f_f( uint8_t *arrays[], int64_t *shape, int64_t *strides, void *fcn );
 ```
 
-#### stdlib_ndarray_b_i( \*arrays[], \*shape, \*strides, \*fcn )
+#### stdlib_ndarray_b_i( \*arrays\[], \*shape, \*strides, \*fcn )
 
 Applies a unary callback accepting and returning signed 32-bit integers to an unsigned 8-bit integer input ndarray, casts the callback's unsigned 8-bit integer return value to a signed 32-bit integer, and assigns results to elements in a signed 32-bit integer output ndarray.
 
@@ -750,7 +750,7 @@ The function accepts the following arguments:
 void stdlib_ndarray_b_i( uint8_t *arrays[], int64_t *shape, int64_t *strides, void *fcn );
 ```
 
-#### stdlib_ndarray_b_i_as_i_i( \*arrays[], \*shape, \*strides, \*fcn )
+#### stdlib_ndarray_b_i_as_i_i( \*arrays\[], \*shape, \*strides, \*fcn )
 
 Applies a unary callback accepting and returning signed 32-bit integers to an unsigned 8-bit integer input ndarray and assigns results to elements in a signed 32-bit integer output ndarray.
 
@@ -790,7 +790,7 @@ The function accepts the following arguments:
 void stdlib_ndarray_b_i_as_i_i( uint8_t *arrays[], int64_t *shape, int64_t *strides, void *fcn );
 ```
 
-#### stdlib_ndarray_b_k( \*arrays[], \*shape, \*strides, \*fcn )
+#### stdlib_ndarray_b_k( \*arrays\[], \*shape, \*strides, \*fcn )
 
 Applies a unary callback accepting and returning unsigned 8-bit integers to an unsigned 8-bit integer input ndarray, casts the callback's unsigned 8-bit integer return value to a signed 16-bit integer, and assigns results to elements in a signed 16-bit integer output ndarray.
 
@@ -830,7 +830,7 @@ The function accepts the following arguments:
 void stdlib_ndarray_b_k( uint8_t *arrays[], int64_t *shape, int64_t *strides, void *fcn );
 ```
 
-#### stdlib_ndarray_b_k_as_k_k( \*arrays[], \*shape, \*strides, \*fcn )
+#### stdlib_ndarray_b_k_as_k_k( \*arrays\[], \*shape, \*strides, \*fcn )
 
 Applies a unary callback accepting and returning signed 16-bit integers to an unsigned 8-bit integer input ndarray and assigns results to elements in a signed 16-bit integer output ndarray.
 
@@ -870,7 +870,7 @@ The function accepts the following arguments:
 void stdlib_ndarray_b_k_as_k_k( uint8_t *arrays[], int64_t *shape, int64_t *strides, void *fcn );
 ```
 
-#### stdlib_ndarray_b_t( \*arrays[], \*shape, \*strides, \*fcn )
+#### stdlib_ndarray_b_t( \*arrays\[], \*shape, \*strides, \*fcn )
 
 Applies a unary callback accepting and returning unsigned 8-bit integers to an unsigned 8-bit integer input ndarray, casts the callback's unsigned 8-bit integer return value to an unsigned 16-bit integer, and assigns results to elements in an unsigned 16-bit integer output ndarray.
 
@@ -910,7 +910,7 @@ The function accepts the following arguments:
 void stdlib_ndarray_b_t( uint8_t *arrays[], int64_t *shape, int64_t *strides, void *fcn );
 ```
 
-#### stdlib_ndarray_b_t_as_t_t( \*arrays[], \*shape, \*strides, \*fcn )
+#### stdlib_ndarray_b_t_as_t_t( \*arrays\[], \*shape, \*strides, \*fcn )
 
 Applies a unary callback accepting and returning unsigned 16-bit integers to an unsigned 8-bit integer input ndarray and assigns results to elements in an unsigned 16-bit integer output ndarray.
 
@@ -950,7 +950,7 @@ The function accepts the following arguments:
 void stdlib_ndarray_b_t_as_t_t( uint8_t *arrays[], int64_t *shape, int64_t *strides, void *fcn );
 ```
 
-#### stdlib_ndarray_b_u( \*arrays[], \*shape, \*strides, \*fcn )
+#### stdlib_ndarray_b_u( \*arrays\[], \*shape, \*strides, \*fcn )
 
 Applies a unary callback accepting and returning unsigned 8-bit integers to an unsigned 8-bit integer input ndarray, casts the callback's unsigned 8-bit integer return value to an unsigned 32-bit integer, and assigns results to elements in an unsigned 32-bit integer output ndarray.
 
@@ -990,7 +990,7 @@ The function accepts the following arguments:
 void stdlib_ndarray_b_u( uint8_t *arrays[], int64_t *shape, int64_t *strides, void *fcn );
 ```
 
-#### stdlib_ndarray_b_u_as_u_u( \*arrays[], \*shape, \*strides, \*fcn )
+#### stdlib_ndarray_b_u_as_u_u( \*arrays\[], \*shape, \*strides, \*fcn )
 
 Applies a unary callback accepting and returning unsigned 32-bit integers to an unsigned 8-bit integer input ndarray and assigns results to elements in an unsigned 32-bit integer output ndarray.
 
@@ -1030,7 +1030,7 @@ The function accepts the following arguments:
 void stdlib_ndarray_b_u_as_u_u( uint8_t *arrays[], int64_t *shape, int64_t *strides, void *fcn );
 ```
 
-#### stdlib_ndarray_d_d( \*arrays[], \*shape, \*strides, \*fcn )
+#### stdlib_ndarray_d_d( \*arrays\[], \*shape, \*strides, \*fcn )
 
 Applies a unary callback accepting and returning double-precision floating-point numbers to a double-precision floating-point input ndarray and assigns results to elements in a double-precision floating-point output ndarray.
 
@@ -1070,7 +1070,7 @@ The function accepts the following arguments:
 void stdlib_ndarray_d_d( uint8_t *arrays[], int64_t *shape, int64_t *strides, void *fcn );
 ```
 
-#### stdlib_ndarray_d_i( \*arrays[], \*shape, \*strides, \*fcn )
+#### stdlib_ndarray_d_i( \*arrays\[], \*shape, \*strides, \*fcn )
 
 Applies a unary callback accepting a double-precision floating-point number and returning a signed 32-bit integer to a double-precision floating-point input ndarray and assigns results to elements in a signed 32-bit integer output ndarray.
 
@@ -1106,7 +1106,7 @@ The function accepts the following arguments:
 void stdlib_ndarray_d_i( uint8_t *arrays[], int64_t *shape, int64_t *strides, void *fcn );
 ```
 
-#### stdlib_ndarray_d_l( \*arrays[], \*shape, \*strides, \*fcn )
+#### stdlib_ndarray_d_l( \*arrays\[], \*shape, \*strides, \*fcn )
 
 Applies a unary callback accepting a double-precision floating-point number and returning a signed 64-bit integer to a double-precision floating-point input ndarray and assigns results to elements in a signed 64-bit integer output ndarray.
 
@@ -1142,7 +1142,7 @@ The function accepts the following arguments:
 void stdlib_ndarray_d_l( uint8_t *arrays[], int64_t *shape, int64_t *strides, void *fcn );
 ```
 
-#### stdlib_ndarray_f_d( \*arrays[], \*shape, \*strides, \*fcn )
+#### stdlib_ndarray_f_d( \*arrays\[], \*shape, \*strides, \*fcn )
 
 Applies a unary callback accepting and returning single-precision floating-point numbers to a single-precision floating-point input ndarray, casts the callback's single-precision floating-point return value to a double-precision floating-point number, and assigns results to elements in a double-precision floating-point output ndarray.
 
@@ -1182,7 +1182,7 @@ The function accepts the following arguments:
 void stdlib_ndarray_f_d( uint8_t *arrays[], int64_t *shape, int64_t *strides, void *fcn );
 ```
 
-#### stdlib_ndarray_f_d_as_d_d( \*arrays[], \*shape, \*strides, \*fcn )
+#### stdlib_ndarray_f_d_as_d_d( \*arrays\[], \*shape, \*strides, \*fcn )
 
 Applies a unary callback accepting and returning double-precision floating-point numbers to a single-precision floating-point input ndarray and assigns results to elements in a double-precision floating-point output ndarray.
 
@@ -1222,7 +1222,7 @@ The function accepts the following arguments:
 void stdlib_ndarray_f_d_as_d_d( uint8_t *arrays[], int64_t *shape, int64_t *strides, void *fcn );
 ```
 
-#### stdlib_ndarray_f_f( \*arrays[], \*shape, \*strides, \*fcn )
+#### stdlib_ndarray_f_f( \*arrays\[], \*shape, \*strides, \*fcn )
 
 Applies a unary callback accepting and returning single-precision floating-point numbers to a single-precision floating-point input ndarray and assigns results to elements in a single-precision floating-point output ndarray.
 
@@ -1262,7 +1262,7 @@ The function accepts the following arguments:
 void stdlib_ndarray_f_f( uint8_t *arrays[], int64_t *shape, int64_t *strides, void *fcn );
 ```
 
-#### stdlib_ndarray_f_f_as_d_d( \*arrays[], \*shape, \*strides, \*fcn )
+#### stdlib_ndarray_f_f_as_d_d( \*arrays\[], \*shape, \*strides, \*fcn )
 
 Applies a unary callback accepting and returning double-precision floating-point numbers, casts the callback's double-precision floating-point return value to a single-precision floating-point number, and assigns results to elements in a single-precision floating-point output ndarray.
 
@@ -1302,7 +1302,7 @@ The function accepts the following arguments:
 void stdlib_ndarray_f_f_as_d_d( uint8_t *arrays[], int64_t *shape, int64_t *strides, void *fcn );
 ```
 
-#### stdlib_ndarray_f_i( \*arrays[], \*shape, \*strides, \*fcn )
+#### stdlib_ndarray_f_i( \*arrays\[], \*shape, \*strides, \*fcn )
 
 Applies a unary callback accepting a single-precision floating-point number and returning a signed 32-bit integer to a single-precision floating-point input ndarray and assigns results to elements in a signed 32-bit integer output ndarray.
 
@@ -1338,7 +1338,7 @@ The function accepts the following arguments:
 void stdlib_ndarray_f_i( uint8_t *arrays[], int64_t *shape, int64_t *strides, void *fcn );
 ```
 
-#### stdlib_ndarray_f_l( \*arrays[], \*shape, \*strides, \*fcn )
+#### stdlib_ndarray_f_l( \*arrays\[], \*shape, \*strides, \*fcn )
 
 Applies a unary callback accepting a single-precision floating-point number and returning a signed 64-bit integer to a single-precision floating-point input ndarray and assigns results to elements in a signed 64-bit integer output ndarray.
 
@@ -1374,7 +1374,7 @@ The function accepts the following arguments:
 void stdlib_ndarray_f_l( uint8_t *arrays[], int64_t *shape, int64_t *strides, void *fcn );
 ```
 
-#### stdlib_ndarray_i_d( \*arrays[], \*shape, \*strides, \*fcn )
+#### stdlib_ndarray_i_d( \*arrays\[], \*shape, \*strides, \*fcn )
 
 Applies a unary callback accepting and returning signed 32-bit integers to a signed 32-bit integer input ndarray, casts the callback's signed 32-bit integer return value to a double-precision floating-point number, and assigns results to elements in a double-precision floating-point output ndarray.
 
@@ -1414,7 +1414,7 @@ The function accepts the following arguments:
 void stdlib_ndarray_i_d( uint8_t *arrays[], int64_t *shape, int64_t *strides, void *fcn );
 ```
 
-#### stdlib_ndarray_i_d_as_d_d( \*arrays[], \*shape, \*strides, \*fcn )
+#### stdlib_ndarray_i_d_as_d_d( \*arrays\[], \*shape, \*strides, \*fcn )
 
 Applies a unary callback accepting and returning double-precision floating-point numbers to a signed 32-bit integer input ndarray and assigns results to elements in a double-precision floating-point output ndarray.
 
@@ -1454,7 +1454,7 @@ The function accepts the following arguments:
 void stdlib_ndarray_i_d_as_d_d( uint8_t *arrays[], int64_t *shape, int64_t *strides, void *fcn );
 ```
 
-#### stdlib_ndarray_i_i( \*arrays[], \*shape, \*strides, \*fcn )
+#### stdlib_ndarray_i_i( \*arrays\[], \*shape, \*strides, \*fcn )
 
 Applies a unary callback accepting and returning signed 32-bit integers to a signed 32-bit integer input ndarray and assigns results to elements in a signed 32-bit integer output ndarray.
 
@@ -1494,7 +1494,7 @@ The function accepts the following arguments:
 void stdlib_ndarray_i_i( uint8_t *arrays[], int64_t *shape, int64_t *strides, void *fcn );
 ```
 
-#### stdlib_ndarray_i_u( \*arrays[], \*shape, \*strides, \*fcn )
+#### stdlib_ndarray_i_u( \*arrays\[], \*shape, \*strides, \*fcn )
 
 Applies a unary callback accepting and returning signed 32-bit integers to a signed 32-bit integer input ndarray, casts the callback's signed 32-bit integer return value to an unsigned 32-bit integer, and assigns results to elements in an unsigned 32-bit integer output ndarray.
 
@@ -1537,7 +1537,7 @@ The function accepts the following arguments:
 void stdlib_ndarray_i_u( uint8_t *arrays[], int64_t *shape, int64_t *strides, void *fcn );
 ```
 
-#### stdlib_ndarray_k_d( \*arrays[], \*shape, \*strides, \*fcn )
+#### stdlib_ndarray_k_d( \*arrays\[], \*shape, \*strides, \*fcn )
 
 Applies a unary callback accepting and returning signed 16-bit integers to a signed 16-bit integer input ndarray, casts the callback's signed 16-bit integer return value to a double-precision floating-point number, and assigns results to elements in a double-precision floating-point output ndarray.
 
@@ -1577,7 +1577,7 @@ The function accepts the following arguments:
 void stdlib_ndarray_k_d( uint8_t *arrays[], int64_t *shape, int64_t *strides, void *fcn );
 ```
 
-#### stdlib_ndarray_k_d_as_d_d( \*arrays[], \*shape, \*strides, \*fcn )
+#### stdlib_ndarray_k_d_as_d_d( \*arrays\[], \*shape, \*strides, \*fcn )
 
 Applies a unary callback accepting and returning double-precision floating-point numbers to a signed 16-bit integer input ndarray and assigns results to elements in a double-precision floating-point output ndarray.
 
@@ -1617,7 +1617,7 @@ The function accepts the following arguments:
 void stdlib_ndarray_k_d_as_d_d( uint8_t *arrays[], int64_t *shape, int64_t *strides, void *fcn );
 ```
 
-#### stdlib_ndarray_k_f( \*arrays[], \*shape, \*strides, \*fcn )
+#### stdlib_ndarray_k_f( \*arrays\[], \*shape, \*strides, \*fcn )
 
 Applies a unary callback accepting and returning signed 16-bit integers to a signed 16-bit integer input ndarray, casts the callback's signed 16-bit integer return value to a single-precision floating-point number, and assigns results to elements in a single-precision floating-point output ndarray.
 
@@ -1657,7 +1657,7 @@ The function accepts the following arguments:
 void stdlib_ndarray_k_f( uint8_t *arrays[], int64_t *shape, int64_t *strides, void *fcn );
 ```
 
-#### stdlib_ndarray_k_f_as_d_d( \*arrays[], \*shape, \*strides, \*fcn )
+#### stdlib_ndarray_k_f_as_d_d( \*arrays\[], \*shape, \*strides, \*fcn )
 
 Applies a unary callback accepting and returning double-precision floating-point numbers to a signed 16-bit integer input ndarray, casts the callback's double-precision floating-point return value to a single-precision floating-point number, and assigns results to elements in a single-precision floating-point output ndarray.
 
@@ -1697,7 +1697,7 @@ The function accepts the following arguments:
 void stdlib_ndarray_k_f_as_d_d( uint8_t *arrays[], int64_t *shape, int64_t *strides, void *fcn );
 ```
 
-#### stdlib_ndarray_k_f_as_f_f( \*arrays[], \*shape, \*strides, \*fcn )
+#### stdlib_ndarray_k_f_as_f_f( \*arrays\[], \*shape, \*strides, \*fcn )
 
 Applies a unary callback accepting and returning single-precision floating-point numbers to a signed 16-bit integer input ndarray and assigns results to elements in a single-precision floating-point output ndarray.
 
@@ -1737,7 +1737,7 @@ The function accepts the following arguments:
 void stdlib_ndarray_k_f_as_f_f( uint8_t *arrays[], int64_t *shape, int64_t *strides, void *fcn );
 ```
 
-#### stdlib_ndarray_k_i( \*arrays[], \*shape, \*strides, \*fcn )
+#### stdlib_ndarray_k_i( \*arrays\[], \*shape, \*strides, \*fcn )
 
 Applies a unary callback accepting and returning signed 16-bit integers to a signed 16-bit integer input ndarray, casts the callback's signed 16-bit integer return value to a signed 32-bit integer, and assigns results to elements in a signed 32-bit integer output ndarray.
 
@@ -1777,7 +1777,7 @@ The function accepts the following arguments:
 void stdlib_ndarray_k_i( uint8_t *arrays[], int64_t *shape, int64_t *strides, void *fcn );
 ```
 
-#### stdlib_ndarray_k_i_as_i_i( \*arrays[], \*shape, \*strides, \*fcn )
+#### stdlib_ndarray_k_i_as_i_i( \*arrays\[], \*shape, \*strides, \*fcn )
 
 Applies a unary callback accepting and returning signed 32-bit integers to a signed 16-bit integer input ndarray and assigns results to elements in a signed 32-bit integer output ndarray.
 
@@ -1817,7 +1817,7 @@ The function accepts the following arguments:
 void stdlib_ndarray_k_i_as_i_i( uint8_t *arrays[], int64_t *shape, int64_t *strides, void *fcn );
 ```
 
-#### stdlib_ndarray_k_k( \*arrays[], \*shape, \*strides, \*fcn )
+#### stdlib_ndarray_k_k( \*arrays\[], \*shape, \*strides, \*fcn )
 
 Applies a unary callback accepting and returning signed 16-bit integers to a signed 16-bit integer input ndarray and assigns results to elements in a signed 16-bit integer output ndarray.
 
@@ -1857,7 +1857,7 @@ The function accepts the following arguments:
 void stdlib_ndarray_k_k( uint8_t *arrays[], int64_t *shape, int64_t *strides, void *fcn );
 ```
 
-#### stdlib_ndarray_k_t( \*arrays[], \*shape, \*strides, \*fcn )
+#### stdlib_ndarray_k_t( \*arrays\[], \*shape, \*strides, \*fcn )
 
 Applies a unary callback accepting and returned signed 16-bit integers to a signed 16-bit integer input ndarray, casts the callback's signed 16-bit integer return value to an unsigned 16-bit integer, and assigns results to elements in an unsigned 16-bit integer output ndarray.
 
@@ -1900,7 +1900,7 @@ The function accepts the following arguments:
 void stdlib_ndarray_k_t( uint8_t *arrays[], int64_t *shape, int64_t *strides, void *fcn );
 ```
 
-#### stdlib_ndarray_k_u( \*arrays[], \*shape, \*strides, \*fcn )
+#### stdlib_ndarray_k_u( \*arrays\[], \*shape, \*strides, \*fcn )
 
 Applies a unary callback accepting and returning signed 16-bit integers to a signed 16-bit integer input ndarray, casts the callback's signed 16-bit integer return value to an unsigned 32-bit integer, and assigns results to elements in an unsigned 32-bit integer output ndarray.
 
@@ -1943,7 +1943,7 @@ The function accepts the following arguments:
 void stdlib_ndarray_k_u( uint8_t *arrays[], int64_t *shape, int64_t *strides, void *fcn );
 ```
 
-#### stdlib_ndarray_l_l( \*arrays[], \*shape, \*strides, \*fcn )
+#### stdlib_ndarray_l_l( \*arrays\[], \*shape, \*strides, \*fcn )
 
 Applies a unary callback accepting and returning signed 64-bit integers to a signed 64-bit integer input ndarray and assigns results to elements in a signed 64-bit integer output ndarray.
 
@@ -1983,7 +1983,7 @@ The function accepts the following arguments:
 void stdlib_ndarray_l_l( uint8_t *arrays[], int64_t *shape, int64_t *strides, void *fcn );
 ```
 
-#### stdlib_ndarray_l_v( \*arrays[], \*shape, \*strides, \*fcn )
+#### stdlib_ndarray_l_v( \*arrays\[], \*shape, \*strides, \*fcn )
 
 Applies a unary callback accepting and returning signed 64-bit integers to a signed 64-bit integer input ndarray, casts the callback's signed 64-bit integer return value to an unsigned 64-bit integer, and assigns results to elements in an unsigned 64-bit integer output ndarray.
 
@@ -2026,7 +2026,7 @@ The function accepts the following arguments:
 void stdlib_ndarray_l_v( uint8_t *arrays[], int64_t *shape, int64_t *strides, void *fcn );
 ```
 
-#### stdlib_ndarray_s_b( \*arrays[], \*shape, \*strides, \*fcn )
+#### stdlib_ndarray_s_b( \*arrays\[], \*shape, \*strides, \*fcn )
 
 Applies a unary callback accepting and returning signed 8-bit integers to a signed 8-bit integer input ndarray, casts the callback's signed 8-bit integer return value to an unsigned 8-bit integer, and assigns results to elements in an unsigned 8-bit integer output ndarray.
 
@@ -2069,7 +2069,7 @@ The function accepts the following arguments:
 void stdlib_ndarray_s_b( uint8_t *arrays[], int64_t *shape, int64_t *strides, void *fcn );
 ```
 
-#### stdlib_ndarray_s_d( \*arrays[], \*shape, \*strides, \*fcn )
+#### stdlib_ndarray_s_d( \*arrays\[], \*shape, \*strides, \*fcn )
 
 Applies a unary callback accepting and returning signed 8-bit integers to a signed 8-bit integer input ndarray, casts the callback's signed 8-bit integer return value to a double-precision floating-point number, and assigns results to elements in a double-precision floating-point output ndarray.
 
@@ -2109,7 +2109,7 @@ The function accepts the following arguments:
 void stdlib_ndarray_s_d( uint8_t *arrays[], int64_t *shape, int64_t *strides, void *fcn );
 ```
 
-#### stdlib_ndarray_s_d_as_d_d( \*arrays[], \*shape, \*strides, \*fcn )
+#### stdlib_ndarray_s_d_as_d_d( \*arrays\[], \*shape, \*strides, \*fcn )
 
 Applies a unary callback accepting and returning double-precision floating-point numbers to a signed 8-bit integer input ndarray and assigns results to elements in a double-precision floating-point output ndarray.
 
@@ -2149,7 +2149,7 @@ The function accepts the following arguments:
 void stdlib_ndarray_s_d_as_d_d( uint8_t *arrays[], int64_t *shape, int64_t *strides, void *fcn );
 ```
 
-#### stdlib_ndarray_s_f( \*arrays[], \*shape, \*strides, \*fcn )
+#### stdlib_ndarray_s_f( \*arrays\[], \*shape, \*strides, \*fcn )
 
 Applies a unary callback accepting and returning signed 8-bit integers to a signed 8-bit integer input ndarray, casts the callback's signed 8-bit integer return value to a single-precision floating-point number, and assigns results to elements in a single-precision floating-point output ndarray.
 
@@ -2189,7 +2189,7 @@ The function accepts the following arguments:
 void stdlib_ndarray_s_f( uint8_t *arrays[], int64_t *shape, int64_t *strides, void *fcn );
 ```
 
-#### stdlib_ndarray_s_f_as_d_d( \*arrays[], \*shape, \*strides, \*fcn )
+#### stdlib_ndarray_s_f_as_d_d( \*arrays\[], \*shape, \*strides, \*fcn )
 
 Applies a unary callback accepting and returning double-precision floating-point numbers to a signed 8-bit integer input ndarray, casts the callback's double-precision floating-point return value to a single-precision floating-point number, and assigns results to elements in a single-precision floating-point output ndarray.
 
@@ -2229,7 +2229,7 @@ The function accepts the following arguments:
 void stdlib_ndarray_s_f_as_d_d( uint8_t *arrays[], int64_t *shape, int64_t *strides, void *fcn );
 ```
 
-#### stdlib_ndarray_s_f_as_f_f( \*arrays[], \*shape, \*strides, \*fcn )
+#### stdlib_ndarray_s_f_as_f_f( \*arrays\[], \*shape, \*strides, \*fcn )
 
 Applies a unary callback accepting and returning single-precision floating-point numbers to a signed 8-bit integer input ndarray and assigns results to elements in a single-precision floating-point output ndarray.
 
@@ -2269,7 +2269,7 @@ The function accepts the following arguments:
 void stdlib_ndarray_s_f_as_f_f( uint8_t *arrays[], int64_t *shape, int64_t *strides, void *fcn );
 ```
 
-#### stdlib_ndarray_s_i( \*arrays[], \*shape, \*strides, \*fcn )
+#### stdlib_ndarray_s_i( \*arrays\[], \*shape, \*strides, \*fcn )
 
 Applies a unary callback accepting and returning signed 8-bit integers to a signed 8-bit integer input ndarray, casts the callback's signed 8-bit integer return value to a signed 32-bit integer, and assigns results to elements in a signed 32-bit integer output ndarray.
 
@@ -2309,7 +2309,7 @@ The function accepts the following arguments:
 void stdlib_ndarray_s_i( uint8_t *arrays[], int64_t *shape, int64_t *strides, void *fcn );
 ```
 
-#### stdlib_ndarray_s_i_as_i_i( \*arrays[], \*shape, \*strides, \*fcn )
+#### stdlib_ndarray_s_i_as_i_i( \*arrays\[], \*shape, \*strides, \*fcn )
 
 Applies a unary callback accepting and returning signed 32-bit integers to a signed 8-bit integer input ndarray and assigns results to elements in a signed 32-bit integer output ndarray.
 
@@ -2349,7 +2349,7 @@ The function accepts the following arguments:
 void stdlib_ndarray_s_i_as_i_i( uint8_t *arrays[], int64_t *shape, int64_t *strides, void *fcn );
 ```
 
-#### stdlib_ndarray_s_k( \*arrays[], \*shape, \*strides, \*fcn )
+#### stdlib_ndarray_s_k( \*arrays\[], \*shape, \*strides, \*fcn )
 
 Applies a unary callback accepting and returning signed 8-bit integers to a signed 8-bit integer input ndarray, casts the callback's signed 8-bit integer return value to a signed 16-bit integer, and assigns results to elements in a signed 16-bit integer output ndarray.
 
@@ -2389,7 +2389,7 @@ The function accepts the following arguments:
 void stdlib_ndarray_s_k( uint8_t *arrays[], int64_t *shape, int64_t *strides, void *fcn );
 ```
 
-#### stdlib_ndarray_s_k_as_k_k( \*arrays[], \*shape, \*strides, \*fcn )
+#### stdlib_ndarray_s_k_as_k_k( \*arrays\[], \*shape, \*strides, \*fcn )
 
 Applies a unary callback accepting and returning signed 16-bit integers to a signed 8-bit integer input ndarray and assigns results to elements in a signed 16-bit integer output ndarray.
 
@@ -2429,7 +2429,7 @@ The function accepts the following arguments:
 void stdlib_ndarray_s_k_as_k_k( uint8_t *arrays[], int64_t *shape, int64_t *strides, void *fcn );
 ```
 
-#### stdlib_ndarray_s_s( \*arrays[], \*shape, \*strides, \*fcn )
+#### stdlib_ndarray_s_s( \*arrays\[], \*shape, \*strides, \*fcn )
 
 Applies a unary callback accepting and returning signed 8-bit integers to a signed 8-bit integer input ndarray and assigns results to elements in a signed 8-bit integer output ndarray.
 
@@ -2469,7 +2469,7 @@ The function accepts the following arguments:
 void stdlib_ndarray_s_s( uint8_t *arrays[], int64_t *shape, int64_t *strides, void *fcn );
 ```
 
-#### stdlib_ndarray_s_t( \*arrays[], \*shape, \*strides, \*fcn )
+#### stdlib_ndarray_s_t( \*arrays\[], \*shape, \*strides, \*fcn )
 
 Applies a unary callback accepting and returning signed 8-bit integers to a signed 8-bit integer input ndarray, casts the callback's signed 8-bit integer return value to an unsigned 16-bit integer, and assigns results to elements in an unsigned 16-bit integer output ndarray.
 
@@ -2512,7 +2512,7 @@ The function accepts the following arguments:
 void stdlib_ndarray_s_t( uint8_t *arrays[], int64_t *shape, int64_t *strides, void *fcn );
 ```
 
-#### stdlib_ndarray_s_u( \*arrays[], \*shape, \*strides, \*fcn )
+#### stdlib_ndarray_s_u( \*arrays\[], \*shape, \*strides, \*fcn )
 
 Applies a unary callback accepting and returning signed 8-bit integers to a signed 8-bit integer input ndarray, casts the callback's signed 8-bit integer return value to an unsigned 32-bit integer, and assigns results to elements in an unsigned 32-bit integer output ndarray.
 
@@ -2555,7 +2555,7 @@ The function accepts the following arguments:
 void stdlib_ndarray_s_u( uint8_t *arrays[], int64_t *shape, int64_t *strides, void *fcn );
 ```
 
-#### stdlib_ndarray_t_d( \*arrays[], \*shape, \*strides, \*fcn )
+#### stdlib_ndarray_t_d( \*arrays\[], \*shape, \*strides, \*fcn )
 
 Applies a unary callback accepting and returning unsigned 16-bit integers to an unsigned 16-bit integer input ndarray, casts the callback's unsigned 16-bit integer return value to a double-precision floating-point number, and assigns results to elements in a double-precision floating-point output ndarray.
 
@@ -2595,7 +2595,7 @@ The function accepts the following arguments:
 void stdlib_ndarray_t_d( uint8_t *arrays[], int64_t *shape, int64_t *strides, void *fcn );
 ```
 
-#### stdlib_ndarray_t_d_as_d_d( \*arrays[], \*shape, \*strides, \*fcn )
+#### stdlib_ndarray_t_d_as_d_d( \*arrays\[], \*shape, \*strides, \*fcn )
 
 Applies a unary callback accepting and returning double-precision floating-point numbers to an unsigned 16-bit integer input ndarray and assigns results to elements in a double-precision floating-point output ndarray.
 
@@ -2635,7 +2635,7 @@ The function accepts the following arguments:
 void stdlib_ndarray_t_d_as_d_d( uint8_t *arrays[], int64_t *shape, int64_t *strides, void *fcn );
 ```
 
-#### stdlib_ndarray_t_f( \*arrays[], \*shape, \*strides, \*fcn )
+#### stdlib_ndarray_t_f( \*arrays\[], \*shape, \*strides, \*fcn )
 
 Applies a unary callback accepting and returning unsigned 16-bit integers to an unsigned 16-bit integer input ndarray, casts the callback's unsigned 16-bit integer return value to a single-precision floating-point number, and assigns results to elements in a single-precision floating-point output ndarray.
 
@@ -2675,7 +2675,7 @@ The function accepts the following arguments:
 void stdlib_ndarray_t_f( uint8_t *arrays[], int64_t *shape, int64_t *strides, void *fcn );
 ```
 
-#### stdlib_ndarray_t_f_as_d_d( \*arrays[], \*shape, \*strides, \*fcn )
+#### stdlib_ndarray_t_f_as_d_d( \*arrays\[], \*shape, \*strides, \*fcn )
 
 Applies a unary callback accepting and returning double-precision floating-point numbers to an unsigned 16-bit integer input ndarray, casts the callback's double-precision floating-point return value to a single-precision floating-point number, and assigns results to elements in a single-precision floating-point output ndarray.
 
@@ -2715,7 +2715,7 @@ The function accepts the following arguments:
 void stdlib_ndarray_t_f_as_d_d( uint8_t *arrays[], int64_t *shape, int64_t *strides, void *fcn );
 ```
 
-#### stdlib_ndarray_t_f_as_f_f( \*arrays[], \*shape, \*strides, \*fcn )
+#### stdlib_ndarray_t_f_as_f_f( \*arrays\[], \*shape, \*strides, \*fcn )
 
 Applies a unary callback accepting and returning single-precision floating-point numbers to an unsigned 16-bit integer input ndarray and assigns results to elements in a single-precision floating-point output ndarray.
 
@@ -2755,7 +2755,7 @@ The function accepts the following arguments:
 void stdlib_ndarray_t_f_as_f_f( uint8_t *arrays[], int64_t *shape, int64_t *strides, void *fcn );
 ```
 
-#### stdlib_ndarray_t_i( \*arrays[], \*shape, \*strides, \*fcn )
+#### stdlib_ndarray_t_i( \*arrays\[], \*shape, \*strides, \*fcn )
 
 Applies a unary callback accepting and returning unsigned 16-bit integers to an unsigned 16-bit integer input ndarray, casts the callback's unsigned 16-bit integer return value to a signed 32-bit integer, and assigns results to elements in a signed 32-bit integer output ndarray.
 
@@ -2795,7 +2795,7 @@ The function accepts the following arguments:
 void stdlib_ndarray_t_i( uint8_t *arrays[], int64_t *shape, int64_t *strides, void *fcn );
 ```
 
-#### stdlib_ndarray_t_i_as_i_i( \*arrays[], \*shape, \*strides, \*fcn )
+#### stdlib_ndarray_t_i_as_i_i( \*arrays\[], \*shape, \*strides, \*fcn )
 
 Applies a unary callback accepting and returning signed 32-bit integers to an unsigned 16-bit integer input ndarray and assigns results to elements in a signed 32-bit integer output ndarray.
 
@@ -2835,7 +2835,7 @@ The function accepts the following arguments:
 void stdlib_ndarray_t_i_as_i_i( uint8_t *arrays[], int64_t *shape, int64_t *strides, void *fcn );
 ```
 
-#### stdlib_ndarray_t_t( \*arrays[], \*shape, \*strides, \*fcn )
+#### stdlib_ndarray_t_t( \*arrays\[], \*shape, \*strides, \*fcn )
 
 Applies a unary callback accepting and returning unsigned 16-bit integers to an unsigned 16-bit integer input ndarray and assigns results to elements in an unsigned 16-bit integer output ndarray.
 
@@ -2875,7 +2875,7 @@ The function accepts the following arguments:
 void stdlib_ndarray_t_t( uint8_t *arrays[], int64_t *shape, int64_t *strides, void *fcn );
 ```
 
-#### stdlib_ndarray_t_u( \*arrays[], \*shape, \*strides, \*fcn )
+#### stdlib_ndarray_t_u( \*arrays\[], \*shape, \*strides, \*fcn )
 
 Applies a unary callback accepting and returning unsigned 16-bit integers to each element in an unsigned 16-bit integer input ndarray, casts the callback's unsigned 16-bit integer return value to an unsigned 32-bit integer, and assigns results to elements in an unsigned 32-bit integer output ndarray.
 
@@ -2915,7 +2915,7 @@ The function accepts the following arguments:
 void stdlib_ndarray_t_u( uint8_t *arrays[], int64_t *shape, int64_t *strides, void *fcn );
 ```
 
-#### stdlib_ndarray_t_u_as_u_u( \*arrays[], \*shape, \*strides, \*fcn )
+#### stdlib_ndarray_t_u_as_u_u( \*arrays\[], \*shape, \*strides, \*fcn )
 
 Applies a unary callback accepting and returning unsigned 32-bit integers to an unsigned 16-bit integer input ndarray and assigns results to elements in an unsigned 32-bit integer output ndarray.
 
@@ -2955,7 +2955,7 @@ The function accepts the following arguments:
 void stdlib_ndarray_t_u_as_u_u( uint8_t *arrays[], int64_t *shape, int64_t *strides, void *fcn );
 ```
 
-#### stdlib_ndarray_u_d( \*arrays[], \*shape, \*strides, \*fcn )
+#### stdlib_ndarray_u_d( \*arrays\[], \*shape, \*strides, \*fcn )
 
 Applies a unary callback accepting and returning unsigned 32-bit integers to an unsigned 32-bit integer input ndarray, casts the callback's unsigned 32-bit integer return value to a double-precision floating-point number, and assigns results to elements in a double-precision floating-point output ndarray.
 
@@ -2995,7 +2995,7 @@ The function accepts the following arguments:
 void stdlib_ndarray_u_d( uint8_t *arrays[], int64_t *shape, int64_t *strides, void *fcn );
 ```
 
-#### stdlib_ndarray_u_d_as_d_d( \*arrays[], \*shape, \*strides, \*fcn )
+#### stdlib_ndarray_u_d_as_d_d( \*arrays\[], \*shape, \*strides, \*fcn )
 
 Applies a unary callback accepting and returning double-precision floating-point numbers to an unsigned 32-bit integer input ndarray and assigns results to elements in a double-precision floating-point output ndarray.
 
@@ -3035,7 +3035,7 @@ The function accepts the following arguments:
 void stdlib_ndarray_u_d_as_d_d( uint8_t *arrays[], int64_t *shape, int64_t *strides, void *fcn );
 ```
 
-#### stdlib_ndarray_u_u( \*arrays[], \*shape, \*strides, \*fcn )
+#### stdlib_ndarray_u_u( \*arrays\[], \*shape, \*strides, \*fcn )
 
 Applies a unary callback accepting and returning unsigned 32-bit integers to an unsigned 32-bit integer input ndarray and assigns results to elements in an unsigned 32-bit integer output ndarray.
 
@@ -3075,7 +3075,7 @@ The function accepts the following arguments:
 void stdlib_ndarray_u_u( uint8_t *arrays[], int64_t *shape, int64_t *strides, void *fcn );
 ```
 
-#### stdlib_ndarray_v_v( \*arrays[], \*shape, \*strides, \*fcn )
+#### stdlib_ndarray_v_v( \*arrays\[], \*shape, \*strides, \*fcn )
 
 Applies a unary callback accepting and returning unsigned 64-bit integers to an unsigned 64-bit integer input ndarray and assigns results to elements in an unsigned 64-bit integer output ndarray.
 
@@ -3374,6 +3374,12 @@ int main() {
 
 <section class="related">
 
+* * *
+
+## See Also
+
+-   <span class="package-name">[`@stdlib/ndarray/dispatch`][@stdlib/ndarray/dispatch]</span><span class="delimiter">: </span><span class="description">create an ndarray function interface which performs multiple dispatch.</span>
+
 </section>
 
 <!-- /.related -->
@@ -3434,6 +3440,12 @@ Copyright &copy; 2016-2021. The Stdlib [Authors][stdlib-authors].
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/ndarray-base-unary/main/LICENSE
 
 [mdn-typed-array]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/TypedArray
+
+<!-- <related-links> -->
+
+[@stdlib/ndarray/dispatch]: https://github.com/stdlib-js/ndarray-dispatch
+
+<!-- </related-links> -->
 
 </section>
 
