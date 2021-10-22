@@ -53,9 +53,9 @@
   },
   "devDependencies": {
     "@stdlib/array-filled": "^0.0.x",
+    "@stdlib/array-filled-by": "^0.0.x",
     "@stdlib/array-typed-complex-ctors": "^0.0.x",
     "@stdlib/bench": "^0.0.x",
-    "@stdlib/blas-ext-base-gfill-by": "^0.0.x",
     "@stdlib/math-base-assert-is-nan": "^0.0.x",
     "@stdlib/math-base-special-cbrt": "^0.0.x",
     "@stdlib/math-base-special-floor": "^0.0.x",
