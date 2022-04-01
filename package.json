@@ -1,0 +1,31 @@
+{
+  "name": "@stdlib/ndarray-base-unary",
+  "version": "0.0.0",
+  "description": "Apply a unary callback to elements in a input ndarray and assign results to elements in an output ndarray.",
+  "license": "Apache-2.0",
+  "main": "./bundle.js",
+  "homepage": "https://stdlib.io",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/stdlib-js/ndarray-base-unary.git"
+  },
+  "bugs": {
+    "url": "https://github.com/stdlib-js/stdlib/issues"
+  },
+  "keywords": [
+    "stdlib",
+    "base",
+    "strided",
+    "array",
+    "ndarray",
+    "unary",
+    "apply",
+    "foreach",
+    "map",
+    "transform"
+  ],
+  "funding": {
+    "type": "patreon",
+    "url": "https://www.patreon.com/athan"
+  }
+}
