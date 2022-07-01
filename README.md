@@ -30,32 +30,30 @@ limitations under the License.
 
 <!-- /.intro -->
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/ndarray-base-unary
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
+-   If you are using Deno, visit the [`deno` branch][deno-url].
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
-To use in Observable,
-
 ```javascript
-unary = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-unary@umd/bundle.js' )
-```
-
-To include the bundle in a webpage,
-
-```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-unary@umd/bundle.js"></script>
-```
-
-If no recognized module system is present, access bundle contents via the global scope:
-
-```html
-<script type="text/javascript">
-(function () {
-    window.unary;
-})();
-</script>
+var unary = require( '@stdlib/ndarray-base-unary' );
 ```
 
 #### unary( arrays, fcn )
@@ -145,13 +143,8 @@ Each provided ndarray should be an `object` with the following properties:
 
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/random-base-discrete-uniform@umd/bundle.js"></script>
-<script type="text/javascript">
-(function () {.factory;
+```javascript
+var discreteUniform = require( '@stdlib/random-base-discrete-uniform' ).factory;
 var filledarray = require( '@stdlib/array-filled' );
 var filledarrayBy = require( '@stdlib/array-filled-by' );
 var shape2strides = require( '@stdlib/ndarray-base-shape2strides' );
@@ -183,11 +176,6 @@ var y = {
 unary( [ x, y ], scale );
 console.log( ndarray2array( x.data, x.shape, x.strides, x.offset, x.order ) );
 console.log( ndarray2array( y.data, y.shape, y.strides, y.offset, y.order ) );
-
-})();
-</script>
-</body>
-</html>
 ```
 
 </section>
@@ -196,7 +184,116 @@ console.log( ndarray2array( y.data, y.shape, y.strides, y.offset, y.order ) );
 
 <!-- C interface documentation. -->
 
+* * *
 
+<section class="c">
+
+## C APIs
+
+<!-- Section to include introductory text. Make sure to keep an empty line after the intro `section` element and another before the `/section` close. -->
+
+<section class="intro">
+
+Character codes for data types:
+
+-   **d**: `float64` (double-precision floating-point number).
+-   **f**: `float32` (single-precision floating-point number).
+-   **c**: `complex64` (single-precision floating-point complex number).
+-   **z**: `complex128` (double-precision floating-point complex number).
+-   **s**: `int8` (signed 8-bit integer).
+-   **b**: `uint8` (unsigned 8-bit integer).
+-   **k**: `int16` (signed 16-bit integer).
+-   **t**: `uint16` (unsigned 16-bit integer).
+-   **i**: `int32` (signed 32-bit integer).
+-   **u**: `uint32` (unsigned 32-bit integer).
+-   **l**: `int64` (signed 64-bit integer).
+-   **v**: `uint64` (unsigned 64-bit integer).
+-   **x**: `boolean`.
+
+Function name suffix naming convention:
+
+```text
+stdlib_ndarray_<input_data_type>_<output_data_type>[_as_<callback_arg_data_type>_<callback_return_data_type>]
+```
+
+For example,
+
+```c
+void stdlib_ndarray_d_d(...) {...}
+```
+
+is a function which accepts one double-precision floating-point input ndarray and one double-precision floating-point output ndarray. In other words, the suffix encodes the function type signature.
+
+To support callbacks whose input arguments and/or return values are of a different data type than the input and/or output ndarray data types, the naming convention supports appending an `as` suffix. For example,
+
+```c
+void stdlib_ndarray_f_f_as_d_d(...) {...}
+```
+
+is a function which accepts one single-precision floating-point input ndarray and one single-precision floating-point output ndarray. However, the callback accepts and returns double-precision floating-point numbers. Accordingly, the input and output values need to be cast using the following conversion sequence
+
+```c
+// Convert each input array element to double-precision:
+double dxi = (double)fx[ i ];
+
+// Evaluate the callback:
+double dyi = f( dxi );
+
+// Convert the callback return value to single-precision:
+fy[ i ] = (float)dyi;
+```
+
+</section>
+
+<!-- /.intro -->
+
+<!-- C usage documentation. -->
+
+<section class="usage">
+
+### Usage
+
+```c
+#include "stdlib/ndarray/base/unary.h"
+```
+
+<!-- NOTE: keep the following in alphabetical order -->
+
+* * *
+
+FIXME: add docs for the loop interfaces
+
+</section>
+
+<!-- /.usage -->
+
+<!-- C API usage notes. Make sure to keep an empty line after the `section` element and another before the `/section` close. -->
+
+<section class="notes">
+
+</section>
+
+<!-- /.notes -->
+
+<!-- C API usage examples. -->
+
+* * *
+
+<section class="examples">
+
+### Examples
+
+```c
+// FIXME: add example
+```
+
+</section>
+
+<!-- /.examples -->
+
+</section>
+
+<!-- /.c -->
 
 <!-- Section for related `stdlib` packages. Do not manually edit this section, as it is automatically populated. -->
 
@@ -275,12 +372,13 @@ Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
 [deno-url]: https://github.com/stdlib-js/ndarray-base-unary/tree/deno
 [umd-url]: https://github.com/stdlib-js/ndarray-base-unary/tree/umd
 [esm-url]: https://github.com/stdlib-js/ndarray-base-unary/tree/esm
+[branches-url]: https://github.com/stdlib-js/ndarray-base-unary/blob/main/branches.md
 
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/ndarray-base-unary/main/LICENSE
 
 <!-- <related-links> -->
 
-[@stdlib/ndarray/dispatch]: https://github.com/stdlib-js/ndarray-dispatch/tree/umd
+[@stdlib/ndarray/dispatch]: https://github.com/stdlib-js/ndarray-dispatch
 
 <!-- </related-links> -->
 
