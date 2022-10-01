@@ -50,7 +50,8 @@
     "@stdlib/ndarray-index-modes": "^0.0.x",
     "@stdlib/ndarray-orders": "^0.0.x",
     "@stdlib/types": "^0.0.x",
-    "@stdlib/utils-library-manifest": "^0.0.x"
+    "@stdlib/utils-library-manifest": "^0.0.x",
+    "@stdlib/error-tools-fmtprodmsg": "^0.0.x"
   },
   "devDependencies": {
     "@stdlib/array-filled": "^0.0.x",
