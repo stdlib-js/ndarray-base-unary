@@ -30,30 +30,14 @@ limitations under the License.
 
 <!-- /.intro -->
 
-<section class="installation">
 
-## Installation
-
-```bash
-npm install @stdlib/ndarray-base-unary
-```
-
-Alternatively,
-
--   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
--   If you are using Deno, visit the [`deno` branch][deno-url].
--   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
-
-The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
-
-</section>
 
 <section class="usage">
 
 ## Usage
 
 ```javascript
-var unary = require( '@stdlib/ndarray-base-unary' );
+import unary from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-unary@deno/mod.js';
 ```
 
 #### unary( arrays, fcn )
@@ -63,7 +47,7 @@ Applies a unary callback to elements in an input ndarray and assigns results to 
 <!-- eslint-disable max-len -->
 
 ```javascript
-var Float64Array = require( '@stdlib/array-float64' );
+import Float64Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-float64@deno/mod.js';
 
 function scale( x ) {
     return x * 10.0;
@@ -144,12 +128,12 @@ Each provided ndarray should be an `object` with the following properties:
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-var discreteUniform = require( '@stdlib/random-base-discrete-uniform' ).factory;
-var filledarray = require( '@stdlib/array-filled' );
-var filledarrayBy = require( '@stdlib/array-filled-by' );
-var shape2strides = require( '@stdlib/ndarray-base-shape2strides' );
-var ndarray2array = require( '@stdlib/ndarray-base-to-array' );
-var unary = require( '@stdlib/ndarray-base-unary' );
+var discreteUniform = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-discrete-uniform' ).factory;
+import filledarray from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-filled@deno/mod.js';
+import filledarrayBy from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-filled-by@deno/mod.js';
+import shape2strides from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-shape2strides@deno/mod.js';
+import ndarray2array from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-to-array@deno/mod.js';
+import unary from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-unary@deno/mod.js';
 
 function scale( x ) {
     return x * 10;
@@ -184,116 +168,7 @@ console.log( ndarray2array( y.data, y.shape, y.strides, y.offset, y.order ) );
 
 <!-- C interface documentation. -->
 
-* * *
 
-<section class="c">
-
-## C APIs
-
-<!-- Section to include introductory text. Make sure to keep an empty line after the intro `section` element and another before the `/section` close. -->
-
-<section class="intro">
-
-Character codes for data types:
-
--   **d**: `float64` (double-precision floating-point number).
--   **f**: `float32` (single-precision floating-point number).
--   **c**: `complex64` (single-precision floating-point complex number).
--   **z**: `complex128` (double-precision floating-point complex number).
--   **s**: `int8` (signed 8-bit integer).
--   **b**: `uint8` (unsigned 8-bit integer).
--   **k**: `int16` (signed 16-bit integer).
--   **t**: `uint16` (unsigned 16-bit integer).
--   **i**: `int32` (signed 32-bit integer).
--   **u**: `uint32` (unsigned 32-bit integer).
--   **l**: `int64` (signed 64-bit integer).
--   **v**: `uint64` (unsigned 64-bit integer).
--   **x**: `boolean`.
-
-Function name suffix naming convention:
-
-```text
-stdlib_ndarray_<input_data_type>_<output_data_type>[_as_<callback_arg_data_type>_<callback_return_data_type>]
-```
-
-For example,
-
-```c
-void stdlib_ndarray_d_d(...) {...}
-```
-
-is a function which accepts one double-precision floating-point input ndarray and one double-precision floating-point output ndarray. In other words, the suffix encodes the function type signature.
-
-To support callbacks whose input arguments and/or return values are of a different data type than the input and/or output ndarray data types, the naming convention supports appending an `as` suffix. For example,
-
-```c
-void stdlib_ndarray_f_f_as_d_d(...) {...}
-```
-
-is a function which accepts one single-precision floating-point input ndarray and one single-precision floating-point output ndarray. However, the callback accepts and returns double-precision floating-point numbers. Accordingly, the input and output values need to be cast using the following conversion sequence
-
-```c
-// Convert each input array element to double-precision:
-double dxi = (double)fx[ i ];
-
-// Evaluate the callback:
-double dyi = f( dxi );
-
-// Convert the callback return value to single-precision:
-fy[ i ] = (float)dyi;
-```
-
-</section>
-
-<!-- /.intro -->
-
-<!-- C usage documentation. -->
-
-<section class="usage">
-
-### Usage
-
-```c
-#include "stdlib/ndarray/base/unary.h"
-```
-
-<!-- NOTE: keep the following in alphabetical order -->
-
-* * *
-
-FIXME: add docs for the loop interfaces
-
-</section>
-
-<!-- /.usage -->
-
-<!-- C API usage notes. Make sure to keep an empty line after the `section` element and another before the `/section` close. -->
-
-<section class="notes">
-
-</section>
-
-<!-- /.notes -->
-
-<!-- C API usage examples. -->
-
-* * *
-
-<section class="examples">
-
-### Examples
-
-```c
-// FIXME: add example
-```
-
-</section>
-
-<!-- /.examples -->
-
-</section>
-
-<!-- /.c -->
 
 <!-- Section for related `stdlib` packages. Do not manually edit this section, as it is automatically populated. -->
 
@@ -316,7 +191,7 @@ FIXME: add docs for the loop interfaces
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
@@ -378,7 +253,7 @@ Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
 
 <!-- <related-links> -->
 
-[@stdlib/ndarray/dispatch]: https://github.com/stdlib-js/ndarray-dispatch
+[@stdlib/ndarray/dispatch]: https://github.com/stdlib-js/ndarray-dispatch/tree/deno
 
 <!-- </related-links> -->
 
