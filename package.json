@@ -83,7 +83,7 @@
     "@stdlib/ndarray-safe-casts": "^0.0.x",
     "@stdlib/random-base-discrete-uniform": "^0.0.x",
     "@stdlib/random-base-randu": "^0.0.x",
-    "@stdlib/string-format": "^0.0.x",
+    "@stdlib/error-tools-fmtprodmsg": "^0.0.x",
     "@stdlib/string-replace": "^0.0.x",
     "@stdlib/string-substring-after": "^0.0.x",
     "@stdlib/string-substring-before": "^0.0.x",
