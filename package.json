@@ -40,9 +40,9 @@
     "url": "https://github.com/stdlib-js/stdlib/issues"
   },
   "dependencies": {
+    "@stdlib/array-base-assert-is-accessor-array": "^0.0.x",
     "@stdlib/array-base-copy-indexed": "^0.0.x",
     "@stdlib/array-base-zero-to": "^0.0.x",
-    "@stdlib/boolean-ctor": "^0.0.x",
     "@stdlib/complex-float32": "^0.0.x",
     "@stdlib/complex-float64": "^0.0.x",
     "@stdlib/ndarray-base-bytes-per-element": "^0.0.x",
