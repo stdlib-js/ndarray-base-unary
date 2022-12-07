@@ -46,6 +46,7 @@
     "@stdlib/array-base-copy-indexed": "^0.0.x",
     "@stdlib/array-base-getter": "^0.0.x",
     "@stdlib/array-base-setter": "^0.0.x",
+    "@stdlib/array-base-take": "^0.0.x",
     "@stdlib/array-base-zero-to": "^0.0.x",
     "@stdlib/complex-float32": "^0.0.x",
     "@stdlib/complex-float64": "^0.0.x",
