@@ -48,7 +48,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import unary from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-unary@deno/mod.js';
+import unary from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-unary@v0.1.0-deno/mod.js';
 ```
 
 #### unary( arrays, fcn )
@@ -145,7 +145,7 @@ import filledarrayBy from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-filled-by
 import abs from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-abs@deno/mod.js';
 import shape2strides from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-shape2strides@deno/mod.js';
 import ndarray2array from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-to-array@deno/mod.js';
-import unary from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-unary@deno/mod.js';
+import unary from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-unary@v0.1.0-deno/mod.js';
 
 var N = 10;
 var x = {
