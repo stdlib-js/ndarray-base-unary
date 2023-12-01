@@ -60,7 +60,7 @@
     "@stdlib/array-filled": "^0.1.0",
     "@stdlib/array-filled-by": "^0.1.0",
     "@stdlib/array-typed-complex-ctors": "^0.1.0",
-    "@stdlib/bench": "^0.2.0",
+    "@stdlib/bench": "^0.2.1",
     "@stdlib/blas-base-gscal": "^0.1.1",
     "@stdlib/fs-read-dir": "^0.1.1",
     "@stdlib/fs-read-file": "^0.1.1",
