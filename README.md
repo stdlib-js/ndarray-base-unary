@@ -210,6 +210,7 @@ Character codes for data types:
 
 <!-- charcodes -->
 
+-   **x**: `bool` (boolean).
 -   **c**: `complex64` (single-precision floating-point complex number).
 -   **z**: `complex128` (double-precision floating-point complex number).
 -   **f**: `float32` (single-precision floating-point number).
@@ -580,7 +581,7 @@ Applies a unary callback to an input ndarray and assigns results to elements in 
 #include "stdlib/ndarray/index_modes.h"
 #include "stdlib/ndarray/orders.h"
 #include "stdlib/ndarray/ctor.h"
-#include "stdlib/complex/float32.h"
+#include "stdlib/complex/float32/ctor.h"
 #include <stdint.h>
 #include <stdlib.h>
 #include <stdio.h>
@@ -671,7 +672,7 @@ Applies a unary callback to an input ndarray and assigns results to elements in 
 #include "stdlib/ndarray/index_modes.h"
 #include "stdlib/ndarray/orders.h"
 #include "stdlib/ndarray/ctor.h"
-#include "stdlib/complex/float32.h"
+#include "stdlib/complex/float32/ctor.h"
 #include <stdint.h>
 #include <stdlib.h>
 #include <stdio.h>
@@ -762,7 +763,7 @@ Applies a unary callback to an input ndarray and assigns results to elements in 
 #include "stdlib/ndarray/index_modes.h"
 #include "stdlib/ndarray/orders.h"
 #include "stdlib/ndarray/ctor.h"
-#include "stdlib/complex/float64.h"
+#include "stdlib/complex/float64/ctor.h"
 #include <stdint.h>
 #include <stdlib.h>
 #include <stdio.h>
@@ -2833,7 +2834,7 @@ Applies a unary callback to an input ndarray and assigns results to elements in 
 #include "stdlib/ndarray/index_modes.h"
 #include "stdlib/ndarray/orders.h"
 #include "stdlib/ndarray/ctor.h"
-#include "stdlib/complex/float64.h"
+#include "stdlib/complex/float64/ctor.h"
 #include <stdint.h>
 #include <stdlib.h>
 #include <stdio.h>
@@ -2924,7 +2925,7 @@ Applies a unary callback to an input ndarray and assigns results to elements in 
 #include "stdlib/ndarray/index_modes.h"
 #include "stdlib/ndarray/orders.h"
 #include "stdlib/ndarray/ctor.h"
-#include "stdlib/complex/float64.h"
+#include "stdlib/complex/float64/ctor.h"
 #include <stdint.h>
 #include <stdlib.h>
 #include <stdio.h>
@@ -3015,7 +3016,7 @@ Applies a unary callback to an input ndarray and assigns results to elements in 
 #include "stdlib/ndarray/index_modes.h"
 #include "stdlib/ndarray/orders.h"
 #include "stdlib/ndarray/ctor.h"
-#include "stdlib/complex/float32.h"
+#include "stdlib/complex/float32/ctor.h"
 #include <stdint.h>
 #include <stdlib.h>
 #include <stdio.h>
@@ -3106,7 +3107,7 @@ Applies a unary callback to an input ndarray and assigns results to elements in 
 #include "stdlib/ndarray/index_modes.h"
 #include "stdlib/ndarray/orders.h"
 #include "stdlib/ndarray/ctor.h"
-#include "stdlib/complex/float64.h"
+#include "stdlib/complex/float64/ctor.h"
 #include <stdint.h>
 #include <stdlib.h>
 #include <stdio.h>
@@ -3197,7 +3198,7 @@ Applies a unary callback to an input ndarray and assigns results to elements in 
 #include "stdlib/ndarray/index_modes.h"
 #include "stdlib/ndarray/orders.h"
 #include "stdlib/ndarray/ctor.h"
-#include "stdlib/complex/float32.h"
+#include "stdlib/complex/float32/ctor.h"
 #include <stdint.h>
 #include <stdlib.h>
 #include <stdio.h>
@@ -3288,7 +3289,7 @@ Applies a unary callback to an input ndarray and assigns results to elements in 
 #include "stdlib/ndarray/index_modes.h"
 #include "stdlib/ndarray/orders.h"
 #include "stdlib/ndarray/ctor.h"
-#include "stdlib/complex/float32.h"
+#include "stdlib/complex/float32/ctor.h"
 #include <stdint.h>
 #include <stdlib.h>
 #include <stdio.h>
@@ -3379,8 +3380,8 @@ Applies a unary callback to an input ndarray and assigns results to elements in 
 #include "stdlib/ndarray/index_modes.h"
 #include "stdlib/ndarray/orders.h"
 #include "stdlib/ndarray/ctor.h"
-#include "stdlib/complex/float32.h"
-#include "stdlib/complex/float64.h"
+#include "stdlib/complex/float32/ctor.h"
+#include "stdlib/complex/float64/ctor.h"
 #include <stdint.h>
 #include <stdlib.h>
 #include <stdio.h>
@@ -3471,7 +3472,7 @@ Applies a unary callback to an input ndarray and assigns results to elements in 
 #include "stdlib/ndarray/index_modes.h"
 #include "stdlib/ndarray/orders.h"
 #include "stdlib/ndarray/ctor.h"
-#include "stdlib/complex/float64.h"
+#include "stdlib/complex/float64/ctor.h"
 #include <stdint.h>
 #include <stdlib.h>
 #include <stdio.h>
@@ -3832,7 +3833,7 @@ Applies a unary callback to an input ndarray and assigns results to elements in 
 #include "stdlib/ndarray/index_modes.h"
 #include "stdlib/ndarray/orders.h"
 #include "stdlib/ndarray/ctor.h"
-#include "stdlib/complex/float64.h"
+#include "stdlib/complex/float64/ctor.h"
 #include <stdint.h>
 #include <stdlib.h>
 #include <stdio.h>
@@ -3923,7 +3924,7 @@ Applies a unary callback to an input ndarray and assigns results to elements in 
 #include "stdlib/ndarray/index_modes.h"
 #include "stdlib/ndarray/orders.h"
 #include "stdlib/ndarray/ctor.h"
-#include "stdlib/complex/float64.h"
+#include "stdlib/complex/float64/ctor.h"
 #include <stdint.h>
 #include <stdlib.h>
 #include <stdio.h>
@@ -4104,7 +4105,7 @@ Applies a unary callback to an input ndarray and assigns results to elements in 
 #include "stdlib/ndarray/index_modes.h"
 #include "stdlib/ndarray/orders.h"
 #include "stdlib/ndarray/ctor.h"
-#include "stdlib/complex/float32.h"
+#include "stdlib/complex/float32/ctor.h"
 #include <stdint.h>
 #include <stdlib.h>
 #include <stdio.h>
@@ -4195,7 +4196,7 @@ Applies a unary callback to an input ndarray and assigns results to elements in 
 #include "stdlib/ndarray/index_modes.h"
 #include "stdlib/ndarray/orders.h"
 #include "stdlib/ndarray/ctor.h"
-#include "stdlib/complex/float32.h"
+#include "stdlib/complex/float32/ctor.h"
 #include <stdint.h>
 #include <stdlib.h>
 #include <stdio.h>
@@ -4286,7 +4287,7 @@ Applies a unary callback to an input ndarray and assigns results to elements in 
 #include "stdlib/ndarray/index_modes.h"
 #include "stdlib/ndarray/orders.h"
 #include "stdlib/ndarray/ctor.h"
-#include "stdlib/complex/float64.h"
+#include "stdlib/complex/float64/ctor.h"
 #include <stdint.h>
 #include <stdlib.h>
 #include <stdio.h>
@@ -5007,7 +5008,7 @@ Applies a unary callback to an input ndarray and assigns results to elements in 
 #include "stdlib/ndarray/index_modes.h"
 #include "stdlib/ndarray/orders.h"
 #include "stdlib/ndarray/ctor.h"
-#include "stdlib/complex/float64.h"
+#include "stdlib/complex/float64/ctor.h"
 #include <stdint.h>
 #include <stdlib.h>
 #include <stdio.h>
@@ -5098,7 +5099,7 @@ Applies a unary callback to an input ndarray and assigns results to elements in 
 #include "stdlib/ndarray/index_modes.h"
 #include "stdlib/ndarray/orders.h"
 #include "stdlib/ndarray/ctor.h"
-#include "stdlib/complex/float64.h"
+#include "stdlib/complex/float64/ctor.h"
 #include <stdint.h>
 #include <stdlib.h>
 #include <stdio.h>
@@ -5729,7 +5730,7 @@ Applies a unary callback to an input ndarray and assigns results to elements in 
 #include "stdlib/ndarray/index_modes.h"
 #include "stdlib/ndarray/orders.h"
 #include "stdlib/ndarray/ctor.h"
-#include "stdlib/complex/float64.h"
+#include "stdlib/complex/float64/ctor.h"
 #include <stdint.h>
 #include <stdlib.h>
 #include <stdio.h>
@@ -5820,7 +5821,7 @@ Applies a unary callback to an input ndarray and assigns results to elements in 
 #include "stdlib/ndarray/index_modes.h"
 #include "stdlib/ndarray/orders.h"
 #include "stdlib/ndarray/ctor.h"
-#include "stdlib/complex/float64.h"
+#include "stdlib/complex/float64/ctor.h"
 #include <stdint.h>
 #include <stdlib.h>
 #include <stdio.h>
@@ -6001,7 +6002,7 @@ Applies a unary callback to an input ndarray and assigns results to elements in 
 #include "stdlib/ndarray/index_modes.h"
 #include "stdlib/ndarray/orders.h"
 #include "stdlib/ndarray/ctor.h"
-#include "stdlib/complex/float32.h"
+#include "stdlib/complex/float32/ctor.h"
 #include <stdint.h>
 #include <stdlib.h>
 #include <stdio.h>
@@ -6092,7 +6093,7 @@ Applies a unary callback to an input ndarray and assigns results to elements in 
 #include "stdlib/ndarray/index_modes.h"
 #include "stdlib/ndarray/orders.h"
 #include "stdlib/ndarray/ctor.h"
-#include "stdlib/complex/float32.h"
+#include "stdlib/complex/float32/ctor.h"
 #include <stdint.h>
 #include <stdlib.h>
 #include <stdio.h>
@@ -6183,7 +6184,7 @@ Applies a unary callback to an input ndarray and assigns results to elements in 
 #include "stdlib/ndarray/index_modes.h"
 #include "stdlib/ndarray/orders.h"
 #include "stdlib/ndarray/ctor.h"
-#include "stdlib/complex/float64.h"
+#include "stdlib/complex/float64/ctor.h"
 #include <stdint.h>
 #include <stdlib.h>
 #include <stdio.h>
@@ -7804,7 +7805,7 @@ Applies a unary callback to an input ndarray and assigns results to elements in 
 #include "stdlib/ndarray/index_modes.h"
 #include "stdlib/ndarray/orders.h"
 #include "stdlib/ndarray/ctor.h"
-#include "stdlib/complex/float64.h"
+#include "stdlib/complex/float64/ctor.h"
 #include <stdint.h>
 #include <stdlib.h>
 #include <stdio.h>
@@ -7895,7 +7896,7 @@ Applies a unary callback to an input ndarray and assigns results to elements in 
 #include "stdlib/ndarray/index_modes.h"
 #include "stdlib/ndarray/orders.h"
 #include "stdlib/ndarray/ctor.h"
-#include "stdlib/complex/float64.h"
+#include "stdlib/complex/float64/ctor.h"
 #include <stdint.h>
 #include <stdlib.h>
 #include <stdio.h>
@@ -8166,7 +8167,7 @@ Applies a unary callback to an input ndarray and assigns results to elements in 
 #include "stdlib/ndarray/index_modes.h"
 #include "stdlib/ndarray/orders.h"
 #include "stdlib/ndarray/ctor.h"
-#include "stdlib/complex/float32.h"
+#include "stdlib/complex/float32/ctor.h"
 #include <stdint.h>
 #include <stdlib.h>
 #include <stdio.h>
@@ -8257,7 +8258,7 @@ Applies a unary callback to an input ndarray and assigns results to elements in 
 #include "stdlib/ndarray/index_modes.h"
 #include "stdlib/ndarray/orders.h"
 #include "stdlib/ndarray/ctor.h"
-#include "stdlib/complex/float32.h"
+#include "stdlib/complex/float32/ctor.h"
 #include <stdint.h>
 #include <stdlib.h>
 #include <stdio.h>
@@ -8348,7 +8349,7 @@ Applies a unary callback to an input ndarray and assigns results to elements in 
 #include "stdlib/ndarray/index_modes.h"
 #include "stdlib/ndarray/orders.h"
 #include "stdlib/ndarray/ctor.h"
-#include "stdlib/complex/float64.h"
+#include "stdlib/complex/float64/ctor.h"
 #include <stdint.h>
 #include <stdlib.h>
 #include <stdio.h>
@@ -10329,7 +10330,7 @@ Applies a unary callback to an input ndarray and assigns results to elements in 
 #include "stdlib/ndarray/index_modes.h"
 #include "stdlib/ndarray/orders.h"
 #include "stdlib/ndarray/ctor.h"
-#include "stdlib/complex/float64.h"
+#include "stdlib/complex/float64/ctor.h"
 #include <stdint.h>
 #include <stdlib.h>
 #include <stdio.h>
@@ -10420,7 +10421,7 @@ Applies a unary callback to an input ndarray and assigns results to elements in 
 #include "stdlib/ndarray/index_modes.h"
 #include "stdlib/ndarray/orders.h"
 #include "stdlib/ndarray/ctor.h"
-#include "stdlib/complex/float64.h"
+#include "stdlib/complex/float64/ctor.h"
 #include <stdint.h>
 #include <stdlib.h>
 #include <stdio.h>
@@ -10601,7 +10602,7 @@ Applies a unary callback to an input ndarray and assigns results to elements in 
 #include "stdlib/ndarray/index_modes.h"
 #include "stdlib/ndarray/orders.h"
 #include "stdlib/ndarray/ctor.h"
-#include "stdlib/complex/float32.h"
+#include "stdlib/complex/float32/ctor.h"
 #include <stdint.h>
 #include <stdlib.h>
 #include <stdio.h>
@@ -10692,7 +10693,7 @@ Applies a unary callback to an input ndarray and assigns results to elements in 
 #include "stdlib/ndarray/index_modes.h"
 #include "stdlib/ndarray/orders.h"
 #include "stdlib/ndarray/ctor.h"
-#include "stdlib/complex/float32.h"
+#include "stdlib/complex/float32/ctor.h"
 #include <stdint.h>
 #include <stdlib.h>
 #include <stdio.h>
@@ -10783,7 +10784,7 @@ Applies a unary callback to an input ndarray and assigns results to elements in 
 #include "stdlib/ndarray/index_modes.h"
 #include "stdlib/ndarray/orders.h"
 #include "stdlib/ndarray/ctor.h"
-#include "stdlib/complex/float64.h"
+#include "stdlib/complex/float64/ctor.h"
 #include <stdint.h>
 #include <stdlib.h>
 #include <stdio.h>
@@ -12314,7 +12315,7 @@ Applies a unary callback to an input ndarray and assigns results to elements in 
 #include "stdlib/ndarray/index_modes.h"
 #include "stdlib/ndarray/orders.h"
 #include "stdlib/ndarray/ctor.h"
-#include "stdlib/complex/float64.h"
+#include "stdlib/complex/float64/ctor.h"
 #include <stdint.h>
 #include <stdlib.h>
 #include <stdio.h>
@@ -12405,7 +12406,7 @@ Applies a unary callback to an input ndarray and assigns results to elements in 
 #include "stdlib/ndarray/index_modes.h"
 #include "stdlib/ndarray/orders.h"
 #include "stdlib/ndarray/ctor.h"
-#include "stdlib/complex/float64.h"
+#include "stdlib/complex/float64/ctor.h"
 #include <stdint.h>
 #include <stdlib.h>
 #include <stdio.h>
@@ -12946,7 +12947,7 @@ Applies a unary callback to an input ndarray and assigns results to elements in 
 #include "stdlib/ndarray/index_modes.h"
 #include "stdlib/ndarray/orders.h"
 #include "stdlib/ndarray/ctor.h"
-#include "stdlib/complex/float64.h"
+#include "stdlib/complex/float64/ctor.h"
 #include <stdint.h>
 #include <stdlib.h>
 #include <stdio.h>
@@ -13037,7 +13038,7 @@ Applies a unary callback to an input ndarray and assigns results to elements in 
 #include "stdlib/ndarray/index_modes.h"
 #include "stdlib/ndarray/orders.h"
 #include "stdlib/ndarray/ctor.h"
-#include "stdlib/complex/float64.h"
+#include "stdlib/complex/float64/ctor.h"
 #include <stdint.h>
 #include <stdlib.h>
 #include <stdio.h>
@@ -13119,6 +13120,97 @@ The function accepts the following arguments:
 int8_t stdlib_ndarray_u_z_as_z_z( struct ndarray *arrays[], void *fcn );
 ```
 
+#### stdlib_ndarray_x_x( \*arrays\[], \*fcn )
+
+Applies a unary callback to an input ndarray and assigns results to elements in an output ndarray.
+
+```c
+#include "stdlib/ndarray/dtypes.h"
+#include "stdlib/ndarray/index_modes.h"
+#include "stdlib/ndarray/orders.h"
+#include "stdlib/ndarray/ctor.h"
+#include <stdbool.h>
+#include <stdint.h>
+#include <stdlib.h>
+#include <stdio.h>
+
+// Define the ndarray data types:
+enum STDLIB_NDARRAY_DTYPE xdtype = STDLIB_NDARRAY_BOOL;
+enum STDLIB_NDARRAY_DTYPE ydtype = STDLIB_NDARRAY_BOOL;
+
+// Create underlying byte arrays:
+uint8_t xbuf[] = { 0, 0, 0, 0 };
+uint8_t ybuf[] = { 0, 0, 0, 0 };
+
+// Define the number of dimensions:
+int64_t ndims = 2;
+
+// Define the array shapes:
+int64_t shape[] = { 2, 2 };
+
+// Define the strides:
+int64_t sx[] = { 2, 1 };
+int64_t sy[] = { 2, 1 };
+
+// Define the offsets:
+int64_t ox = 0;
+int64_t oy = 0;
+
+// Define the array order:
+enum STDLIB_NDARRAY_ORDER order = STDLIB_NDARRAY_ROW_MAJOR;
+
+// Specify the index mode:
+enum STDLIB_NDARRAY_INDEX_MODE imode = STDLIB_NDARRAY_INDEX_ERROR;
+
+// Specify the subscript index modes:
+int8_t submodes[] = { imode };
+int64_t nsubmodes = 1;
+
+// Create an input ndarray:
+struct ndarray *x = stdlib_ndarray_allocate( xdtype, xbuf, ndims, shape, sx, ox, order, imode, nsubmodes, submodes );
+if ( x == NULL ) {
+    fprintf( stderr, "Error allocating memory.\n" );
+    exit( EXIT_FAILURE );
+}
+
+// Create an output ndarray:
+struct ndarray *y = stdlib_ndarray_allocate( ydtype, ybuf, ndims, shape, sy, oy, order, imode, nsubmodes, submodes );
+if ( y == NULL ) {
+    fprintf( stderr, "Error allocating memory.\n" );
+    exit( EXIT_FAILURE );
+}
+
+// Create an array containing the ndarrays:
+struct ndarray *arrays[] = { x, y };
+
+// Define a callback:
+static bool fcn( const bool x ) {
+    return x;
+}
+
+// Apply the callback:
+int8_t status = stdlib_ndarray_x_x( arrays, (void *)fcn );
+if ( status != 0 ) {
+    fprintf( stderr, "Error during computation.\n" );
+    exit( EXIT_FAILURE );
+}
+
+// ...
+
+// Free allocated memory:
+stdlib_ndarray_free( x );
+stdlib_ndarray_free( y );
+```
+
+The function accepts the following arguments:
+
+-   **arrays**: `[inout] struct ndarray**` array whose first element is a pointer to an input ndarray and whose second element is a pointer to an output ndarray.
+-   **fcn**: `[in] void*` a `bool (*f)(bool)` function to apply provided as a `void` pointer.
+
+```c
+int8_t stdlib_ndarray_x_x( struct ndarray *arrays[], void *fcn );
+```
+
 #### stdlib_ndarray_z_d_as_z_d( \*arrays\[], \*fcn )
 
 Applies a unary callback to an input ndarray and assigns results to elements in an output ndarray.
@@ -13128,7 +13220,7 @@ Applies a unary callback to an input ndarray and assigns results to elements in 
 #include "stdlib/ndarray/index_modes.h"
 #include "stdlib/ndarray/orders.h"
 #include "stdlib/ndarray/ctor.h"
-#include "stdlib/complex/float64.h"
+#include "stdlib/complex/float64/ctor.h"
 #include <stdint.h>
 #include <stdlib.h>
 #include <stdio.h>
@@ -13219,7 +13311,7 @@ Applies a unary callback to an input ndarray and assigns results to elements in 
 #include "stdlib/ndarray/index_modes.h"
 #include "stdlib/ndarray/orders.h"
 #include "stdlib/ndarray/ctor.h"
-#include "stdlib/complex/float64.h"
+#include "stdlib/complex/float64/ctor.h"
 #include <stdint.h>
 #include <stdlib.h>
 #include <stdio.h>

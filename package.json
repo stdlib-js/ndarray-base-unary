@@ -40,8 +40,8 @@
     "url": "https://github.com/stdlib-js/stdlib/issues"
   },
   "dependencies": {
-    "@stdlib/complex-float32": "^0.2.1",
-    "@stdlib/complex-float64": "^0.2.1",
+    "@stdlib/complex-float32-ctor": "^0.0.1",
+    "@stdlib/complex-float64-ctor": "^0.0.1",
     "@stdlib/ndarray-base-bytes-per-element": "^0.2.1",
     "@stdlib/ndarray-base-iteration-order": "^0.2.1",
     "@stdlib/ndarray-base-minmax-view-buffer-index": "^0.2.1",
