@@ -32,6 +32,7 @@
 
 <details>
 
+-   [`5fe7f2e`](https://github.com/stdlib-js/stdlib/commit/5fe7f2e437b3bf7ff82db46944d8f928c7fc4090) - **style:** remove backticks _(by Athan Reines)_
 -   [`dab89ca`](https://github.com/stdlib-js/stdlib/commit/dab89ca7cb89b404eef61ae48cfb84afec543222) - **style:** remove backticks _(by Athan Reines)_
 -   [`8d4c46b`](https://github.com/stdlib-js/stdlib/commit/8d4c46b10ca912401e0ff0caa37a17cd3c443c2f) - **refactor:** update paths _(by Athan Reines)_
 -   [`18b3c79`](https://github.com/stdlib-js/stdlib/commit/18b3c79c5035c7082618b7379cd6576e64393a96) - **refactor:** update paths _(by Athan Reines)_
