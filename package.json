@@ -53,7 +53,7 @@
     "@stdlib/ndarray-ctor": "^0.2.2",
     "@stdlib/ndarray-index-modes": "^0.2.2",
     "@stdlib/ndarray-orders": "^0.2.2",
-    "@stdlib/types": "^0.4.1",
+    "@stdlib/types": "^0.4.3",
     "@stdlib/utils-library-manifest": "^0.2.2"
   },
   "devDependencies": {
