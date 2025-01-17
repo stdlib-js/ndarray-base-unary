@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-12-30)
+## Unreleased (2025-01-17)
 
 <section class="features">
 
@@ -20,6 +20,7 @@
 
 ### Bug Fixes
 
+-   [`e689326`](https://github.com/stdlib-js/stdlib/commit/e68932672651e213b4cf6500100d7055b794ba82) - use correct stride
 -   [`1375823`](https://github.com/stdlib-js/stdlib/commit/1375823f58c93aeac8c687147f40e78d52adec04) - use computed order and fix strides in examples
 -   [`cf3f92e`](https://github.com/stdlib-js/stdlib/commit/cf3f92eddd20ec1a4106c8a34f7d7705a9a99dbc) - update include paths
 
@@ -33,6 +34,8 @@
 
 <details>
 
+-   [`e689326`](https://github.com/stdlib-js/stdlib/commit/e68932672651e213b4cf6500100d7055b794ba82) - **fix:** use correct stride _(by Athan Reines)_
+-   [`10a14b5`](https://github.com/stdlib-js/stdlib/commit/10a14b576aa39aba24959261860788f82efdcd26) - **docs:** fix description _(by Athan Reines)_
 -   [`abf0407`](https://github.com/stdlib-js/stdlib/commit/abf040787f6598438b0100a729a8331b7f80f62f) - **chore:** resolve lint errors in TS files _(by Philipp Burckhardt)_
 -   [`1375823`](https://github.com/stdlib-js/stdlib/commit/1375823f58c93aeac8c687147f40e78d52adec04) - **fix:** use computed order and fix strides in examples _(by Athan Reines)_
 -   [`5fe7f2e`](https://github.com/stdlib-js/stdlib/commit/5fe7f2e437b3bf7ff82db46944d8f928c7fc4090) - **style:** remove backticks _(by Athan Reines)_
