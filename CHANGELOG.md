@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-02-03)
+## Unreleased (2025-02-19)
 
 <section class="features">
 
@@ -34,6 +34,7 @@
 
 <details>
 
+-   [`d38fd36`](https://github.com/stdlib-js/stdlib/commit/d38fd36fcf6ac58240b13abe41ceb3046f36a8b2) - **style:** resolve lint errors _(by Athan Reines)_
 -   [`e689326`](https://github.com/stdlib-js/stdlib/commit/e68932672651e213b4cf6500100d7055b794ba82) - **fix:** use correct stride _(by Athan Reines)_
 -   [`10a14b5`](https://github.com/stdlib-js/stdlib/commit/10a14b576aa39aba24959261860788f82efdcd26) - **docs:** fix description _(by Athan Reines)_
 -   [`abf0407`](https://github.com/stdlib-js/stdlib/commit/abf040787f6598438b0100a729a8331b7f80f62f) - **chore:** resolve lint errors in TS files _(by Philipp Burckhardt)_
