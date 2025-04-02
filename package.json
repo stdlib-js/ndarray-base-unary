@@ -71,7 +71,7 @@
     "@stdlib/assert-is-same-float64array": "^0.2.2",
     "@stdlib/blas-base-gscal": "^0.2.2",
     "@stdlib/blas-ext-base-dfill": "^0.2.2",
-    "@stdlib/blas-ext-base-gfill": "^0.2.1",
+    "@stdlib/blas-ext-base-zfill": "github:stdlib-js/blas-ext-base-zfill#main",
     "@stdlib/complex-float64-imag": "^0.1.1",
     "@stdlib/complex-float64-real": "^0.1.1",
     "@stdlib/fs-read-dir": "^0.2.2",

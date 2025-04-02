@@ -34,6 +34,7 @@
 
 <details>
 
+-   [`d3289c3`](https://github.com/stdlib-js/stdlib/commit/d3289c3af88a698ed39ee5234c525cfec98c56f5) - **test:** use `zfill` rather than `gfill` to improve performance _(by Athan Reines)_
 -   [`b96a6a2`](https://github.com/stdlib-js/stdlib/commit/b96a6a258f9c560073e252b9969095a12723074e) - **test:** add missing tests to `ndarray/base/unary` [(#5821)](https://github.com/stdlib-js/stdlib/pull/5821) _(by Muhammad Haris)_
 -   [`ad7c705`](https://github.com/stdlib-js/stdlib/commit/ad7c7056b95d52aac386e81209fbcd7fe8eac81f) - **refactor:** format error message _(by Athan Reines)_
 -   [`3938b26`](https://github.com/stdlib-js/stdlib/commit/3938b265e603116448c89fcaa58df70e79d40f59) - **refactor:** update paths _(by Gururaj Gurram)_
