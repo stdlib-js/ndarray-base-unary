@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-04-02)
+## Unreleased (2025-05-07)
 
 <section class="features">
 
@@ -20,6 +20,7 @@
 
 ### Bug Fixes
 
+-   [`1473377`](https://github.com/stdlib-js/stdlib/commit/1473377ac4faecd7ff1448fb7972d851c3e8b2a8) - use computed order
 -   [`e689326`](https://github.com/stdlib-js/stdlib/commit/e68932672651e213b4cf6500100d7055b794ba82) - use correct stride
 -   [`1375823`](https://github.com/stdlib-js/stdlib/commit/1375823f58c93aeac8c687147f40e78d52adec04) - use computed order and fix strides in examples
 -   [`cf3f92e`](https://github.com/stdlib-js/stdlib/commit/cf3f92eddd20ec1a4106c8a34f7d7705a9a99dbc) - update include paths
@@ -34,6 +35,8 @@
 
 <details>
 
+-   [`3dd8cb3`](https://github.com/stdlib-js/stdlib/commit/3dd8cb379ea22c4a92d610d146cdd662d3187e27) - **chore:** minor clean-up _(by Philipp Burckhardt)_
+-   [`1473377`](https://github.com/stdlib-js/stdlib/commit/1473377ac4faecd7ff1448fb7972d851c3e8b2a8) - **fix:** use computed order _(by Athan Reines)_
 -   [`d3289c3`](https://github.com/stdlib-js/stdlib/commit/d3289c3af88a698ed39ee5234c525cfec98c56f5) - **test:** use `zfill` rather than `gfill` to improve performance _(by Athan Reines)_
 -   [`b96a6a2`](https://github.com/stdlib-js/stdlib/commit/b96a6a258f9c560073e252b9969095a12723074e) - **test:** add missing tests to `ndarray/base/unary` [(#5821)](https://github.com/stdlib-js/stdlib/pull/5821) _(by Muhammad Haris)_
 -   [`ad7c705`](https://github.com/stdlib-js/stdlib/commit/ad7c7056b95d52aac386e81209fbcd7fe8eac81f) - **refactor:** format error message _(by Athan Reines)_

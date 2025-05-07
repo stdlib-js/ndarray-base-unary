@@ -47,6 +47,7 @@
     "@stdlib/ndarray-base-minmax-view-buffer-index": "^0.2.2",
     "@stdlib/ndarray-base-ndarraylike2object": "^0.2.2",
     "@stdlib/ndarray-base-numel": "^0.2.2",
+    "@stdlib/ndarray-base-strides2order": "^0.2.2",
     "@stdlib/ndarray-base-unary-loop-interchange-order": "^0.2.1",
     "@stdlib/ndarray-base-unary-tiling-block-size": "^0.2.2",
     "@stdlib/ndarray-base-vind2bind": "^0.2.2",
