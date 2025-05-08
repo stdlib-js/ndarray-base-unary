@@ -36,6 +36,7 @@
 
 <details>
 
+-   [`1d2c4e2`](https://github.com/stdlib-js/stdlib/commit/1d2c4e2ef621e2304c5d855c4c8b6ed2f9e9e1ad) - **refactor:** avoid duplicate computation _(by Athan Reines)_
 -   [`92bf1a1`](https://github.com/stdlib-js/stdlib/commit/92bf1a12b2398ec5823eb3094bdc89f88d9876a7) - **fix:** use resolved order when computing loop variables _(by Athan Reines)_
 -   [`3dd8cb3`](https://github.com/stdlib-js/stdlib/commit/3dd8cb379ea22c4a92d610d146cdd662d3187e27) - **chore:** minor clean-up _(by Philipp Burckhardt)_
 -   [`1473377`](https://github.com/stdlib-js/stdlib/commit/1473377ac4faecd7ff1448fb7972d851c3e8b2a8) - **fix:** use computed order _(by Athan Reines)_
