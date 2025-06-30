@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-05-08)
+## Unreleased (2025-06-30)
 
 <section class="features">
 
@@ -20,6 +20,7 @@
 
 ### Bug Fixes
 
+-   [`4795826`](https://github.com/stdlib-js/stdlib/commit/47958261521f7d00ccd325cb978e55af39b9cbe0) - check for row-major value
 -   [`92bf1a1`](https://github.com/stdlib-js/stdlib/commit/92bf1a12b2398ec5823eb3094bdc89f88d9876a7) - use resolved order when computing loop variables
 -   [`1473377`](https://github.com/stdlib-js/stdlib/commit/1473377ac4faecd7ff1448fb7972d851c3e8b2a8) - use computed order
 -   [`e689326`](https://github.com/stdlib-js/stdlib/commit/e68932672651e213b4cf6500100d7055b794ba82) - use correct stride
@@ -36,6 +37,7 @@
 
 <details>
 
+-   [`4795826`](https://github.com/stdlib-js/stdlib/commit/47958261521f7d00ccd325cb978e55af39b9cbe0) - **fix:** check for row-major value _(by Athan Reines)_
 -   [`1d2c4e2`](https://github.com/stdlib-js/stdlib/commit/1d2c4e2ef621e2304c5d855c4c8b6ed2f9e9e1ad) - **refactor:** avoid duplicate computation _(by Athan Reines)_
 -   [`92bf1a1`](https://github.com/stdlib-js/stdlib/commit/92bf1a12b2398ec5823eb3094bdc89f88d9876a7) - **fix:** use resolved order when computing loop variables _(by Athan Reines)_
 -   [`3dd8cb3`](https://github.com/stdlib-js/stdlib/commit/3dd8cb379ea22c4a92d610d146cdd662d3187e27) - **chore:** minor clean-up _(by Philipp Burckhardt)_
