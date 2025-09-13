@@ -96,7 +96,7 @@
     "@stdlib/ndarray-base-to-array": "^0.2.1",
     "@stdlib/ndarray-dtypes": "^0.3.0",
     "@stdlib/ndarray-from-scalar": "^0.2.1",
-    "@stdlib/ndarray-safe-casts": "^0.3.0",
+    "@stdlib/ndarray-mostly-safe-casts": "^0.3.0",
     "@stdlib/number-float64-base-identity": "github:stdlib-js/number-float64-base-identity#main",
     "@stdlib/random-base-discrete-uniform": "^0.2.1",
     "@stdlib/random-base-randu": "^0.2.1",
