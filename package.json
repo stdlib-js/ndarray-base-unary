@@ -60,6 +60,10 @@
     "@stdlib/error-tools-fmtprodmsg": "^0.2.2"
   },
   "devDependencies": {
+    "@stdlib/array-base-copy": "^0.2.2",
+    "@stdlib/array-base-copy-indexed": "^0.2.2",
+    "@stdlib/array-base-join": "^0.1.1",
+    "@stdlib/array-base-zeros": "^0.2.2",
     "@stdlib/array-complex128": "^0.3.0",
     "@stdlib/array-filled": "^0.2.1",
     "@stdlib/array-filled-by": "^0.2.1",
@@ -87,6 +91,8 @@
     "@stdlib/math-base-special-pow": "^0.3.0",
     "@stdlib/math-base-special-round": "^0.3.0",
     "@stdlib/math-base-special-sqrt": "^0.2.2",
+    "@stdlib/ndarray-base-assert-is-complex-floating-point-data-type-char": "github:stdlib-js/ndarray-base-assert-is-complex-floating-point-data-type-char#main",
+    "@stdlib/ndarray-base-assert-is-floating-point-data-type": "^0.2.2",
     "@stdlib/ndarray-base-char2dtype": "^0.2.2",
     "@stdlib/ndarray-base-dtype-char": "^0.2.2",
     "@stdlib/ndarray-base-dtype-desc": "^0.2.2",
@@ -97,6 +103,7 @@
     "@stdlib/ndarray-dtypes": "^0.3.0",
     "@stdlib/ndarray-from-scalar": "^0.2.1",
     "@stdlib/ndarray-mostly-safe-casts": "^0.3.0",
+    "@stdlib/ndarray-next-dtype": "^0.3.0",
     "@stdlib/number-float64-base-identity": "github:stdlib-js/number-float64-base-identity#main",
     "@stdlib/random-base-discrete-uniform": "^0.2.1",
     "@stdlib/random-base-randu": "^0.2.1",
