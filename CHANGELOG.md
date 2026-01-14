@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-12-29)
+## Unreleased (2026-01-14)
 
 <section class="features">
 
@@ -39,6 +39,7 @@
 
 <details>
 
+-   [`e2c03c0`](https://github.com/stdlib-js/stdlib/commit/e2c03c048787bde4a01ed8b6968ea6437e9e652a) - **docs:** improve doctests for complex number instances in `ndarray/base/unary` [(#8999)](https://github.com/stdlib-js/stdlib/pull/8999) _(by Aryan kumar, Athan Reines)_
 -   [`97fb507`](https://github.com/stdlib-js/stdlib/commit/97fb507addda8bf32be3a3f376d387e528672149) - **fix:** handle mostly safe casts and refactor loop generation _(by Athan Reines)_
 -   [`3304071`](https://github.com/stdlib-js/stdlib/commit/33040719d3718582bd866243ced74fb7f5b67a7c) - **test:** provide missing argument _(by Athan Reines)_
 -   [`a3e7978`](https://github.com/stdlib-js/stdlib/commit/a3e79786217bf1c9a84875203251af82cc93a222) - **docs:** update markup _(by Athan Reines)_
@@ -77,8 +78,9 @@
 
 ### Contributors
 
-A total of 5 people contributed to this release. Thank you to the following contributors:
+A total of 6 people contributed to this release. Thank you to the following contributors:
 
+-   Aryan kumar
 -   Athan Reines
 -   Gururaj Gurram
 -   Jaysukh Makvana
