@@ -2,6 +2,40 @@
 
 > Package changelog.
 
+<section class="release" id="unreleased">
+
+## Unreleased (2026-05-10)
+
+<section class="commits">
+
+### Commits
+
+<details>
+
+-   [`d4e7085`](https://github.com/stdlib-js/stdlib/commit/d4e708558f65e141de712cec2484c27838df2cd8) - **docs:** improve doctests for complex number typed arrays in `ndarray/base/unary` [(#12044)](https://github.com/stdlib-js/stdlib/pull/12044) _(by Karan Anand)_
+
+</details>
+
+</section>
+
+<!-- /.commits -->
+
+<section class="contributors">
+
+### Contributors
+
+A total of 1 person contributed to this release. Thank you to this contributor:
+
+-   Karan Anand
+
+</section>
+
+<!-- /.contributors -->
+
+</section>
+
+<!-- /.release -->
+
 <section class="release" id="v0.3.1">
 
 ## 0.3.1 (2026-02-08)
