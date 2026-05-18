@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-05-16)
+## Unreleased (2026-05-18)
 
 <section class="commits">
 
@@ -12,6 +12,7 @@
 
 <details>
 
+-   [`d400b65`](https://github.com/stdlib-js/stdlib/commit/d400b65944bf4a27168d1f71ca4726d696d7fc9f) - **bench:** fix missing arguments _(by Athan Reines)_
 -   [`d4e7085`](https://github.com/stdlib-js/stdlib/commit/d4e708558f65e141de712cec2484c27838df2cd8) - **docs:** improve doctests for complex number typed arrays in `ndarray/base/unary` [(#12044)](https://github.com/stdlib-js/stdlib/pull/12044) _(by Karan Anand)_
 
 </details>
@@ -24,8 +25,9 @@
 
 ### Contributors
 
-A total of 1 person contributed to this release. Thank you to this contributor:
+A total of 2 people contributed to this release. Thank you to the following contributors:
 
+-   Athan Reines
 -   Karan Anand
 
 </section>
